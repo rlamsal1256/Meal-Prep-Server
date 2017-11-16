@@ -1,4 +1,4 @@
-const selectedFood = (state = [], action) => {
+export default function(state = [], action) {
   switch (action.type) {
     case "FOOD_SELECTED":
       // console.log("4 ", action.item);
@@ -11,6 +11,4 @@ const selectedFood = (state = [], action) => {
     default:
       return state;
   }
-};
-
-export default selectedFood;
+}

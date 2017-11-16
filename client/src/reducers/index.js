@@ -3,10 +3,9 @@ import searchResults from "./searchResults";
 import selectedFood from "./selectedFood";
 import calculatedCalories from "./calculatedCalories";
 
-const todoApp = combineReducers({
+export default combineReducers({
+  //auth: authReducer
   searchResults,
   selectedFood,
   calculatedCalories
 });
-
-export default todoApp;
