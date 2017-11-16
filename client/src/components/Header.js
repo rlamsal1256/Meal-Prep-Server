@@ -14,6 +14,11 @@ class Header extends React.Component {
               <Link to="/calculate">Calculate Daily Calories</Link>
             </li>
           </ul>
+          <ul className="nav navbar-nav navbar-right">
+            <li>
+              <Link to="/sign_in">Sign In</Link>
+            </li>
+          </ul>
         </nav>
         <div className="jumbotron text-center">
           <h1>MealPrep</h1>
