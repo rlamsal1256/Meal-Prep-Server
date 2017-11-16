@@ -24,7 +24,14 @@
   background-color: #f4511e;
   color: #fff;
 }
-.home_page {
+.google-sign-in-wrapper {
+  text-align: center;
+}
+.google-sign-in-image {
+  position: absolute;
+  top: 50%;
+}
+.search_food_page {
   position: relative;
   /* background: black; */
   width: 100%;

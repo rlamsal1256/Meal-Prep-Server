@@ -1,8 +1,14 @@
 import React from "react";
 
 const SignInPage = () => (
-  <div>
-    <a href="/auth/google">Sign In With Google</a>
+  <div className="google-sign-in-wrapper">
+    <a href="/auth/google">
+      <img
+        className="google_sign_in_image"
+        src="https://developers.google.com/accounts/images/sign-in-with-google.png"
+        alt="google sign in"
+      />
+    </a>
   </div>
 );
 

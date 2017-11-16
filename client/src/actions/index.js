@@ -1,4 +1,11 @@
 import keys from "../config/keys";
+import axios from "axios";
+import { FETCH_USER } from "./types";
+
+export const fetchUser = () => async dispatch => {
+  const res = await axios.get("/api/current_user");
+  dispatch({ type: FETCH_USER, payload: res.data });
+};
 
 export const foodSelected = text => {
   // console.log("3 ", text);

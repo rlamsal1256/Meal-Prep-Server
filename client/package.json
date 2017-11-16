@@ -5,9 +5,14 @@
   "proxy": {
     "/auth/google": {
       "target": "http://localhost:5000"
+    },
+    "/api/*": {
+      "target": "http://localhost:5000"
     }
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "materialize-css": "^0.100.2",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.3",
     "react-circular-progressbar": "^0.5.0",

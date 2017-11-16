@@ -1,20 +1,16 @@
 import React from "react";
-import Search from "../containers/Search";
-import SelectedFoodList from "../containers/SelectedFoodList";
-import Carbohydrates from "../components/Carbohydrates";
-import { Link } from "react-router-dom";
 
 const Home = () => (
-  <div className="home_page">
-    <Search />
-    <div className="selectedFoodList">
-      <SelectedFoodList className="selectedFoodList" />
-    </div>
-    <Carbohydrates />
-    <br />
-    <br />
-    <br />
-    <br />
+  <div style={{ display: "block", margin: "auto", width: "40%" }}>
+    <iframe
+      title="How to know when full"
+      width="650"
+      height="400"
+      src="https://www.youtube.com/embed/YVfyYrEmzgM"
+      frameBorder="0"
+      gesture="media"
+      allowFullScreen
+    />
   </div>
 );
 
